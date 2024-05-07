@@ -7,7 +7,7 @@ const themeStore = useThemeStore();
 </script>
 
 <template>
-  <button >
+  <button>
     <label class="switch">
       <span class="sun bg-white text-black"
         ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
