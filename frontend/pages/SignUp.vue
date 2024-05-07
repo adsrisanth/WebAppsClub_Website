@@ -5,7 +5,7 @@
           <LoadingSignUp v-if="isLoading"/>
       </div>
     </div>
-    <div class=" text-black dark:text-white sm:w-max-xl sm:mx-auto sm:m-[250px] sm:p-6">
+    <div class=" text-black dark:text-white">
       <div class="text-center text-[34px] font-bold mb-3">
         <span>SIGN UP</span>
       </div>
