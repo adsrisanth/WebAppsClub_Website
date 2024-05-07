@@ -40,9 +40,20 @@
                 </a>
             </div>
         </div>
+        <div class="flex h-[90dvh] place-items-center justify-center gap gap-16">
+            <div class="w-1/4">
+                <span class="text-[42px] font-montserrat text-[#e7a93c] font-bold dark:text-[#0ee2b7]">Who We Are</span>
+                <span class="flex flex-row text-2xl dark:text-white"> Welcome to WebApps, where we are passionate about app development and 
+                    cutting-edge technologies. Our club focuses on a diverse range of programming languages, tools, and concepts, from Kotlin 
+                    and pure Java to blockchain, decentralized technologies, cryptocurrencies, AI, and web development.</span>
+            </div>
+            <div class="hover:shadow-lg hover:shadow-[#e7a93c] hover:rounded-3xl dark:hover:shadow-[#0ee2b7] hover:duration-500">
+                <NuxtLink to="/"><img src="../assets/images/team.jpg" width="600px" class="rounded-3xl"></NuxtLink>
+            </div>
+        </div>
         <!---Footer-->
-        <div class="text-2xl font-inter">
-            <span>Designed and developed By </span>
+        <div class="flex relative top-full justify-center text-2xl font-inter gap gap-1">
+            <span>Designed and developed By</span>
             <a href="https://www.linkedin.com/in/dinesh-srisanth-adari-860129249/" target="_blank" rel="noopener noreferrer" class=" text-[#e7a93c] hover:text-[#0ee2b7] hover:duration-300">
                 <span>Dinesh SriSanth Adari</span>
             </a>
