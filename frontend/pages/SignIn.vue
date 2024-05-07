@@ -74,7 +74,7 @@
             <DarktoLight />
         </div>
         <div class="absolute flex top-10 start-10">
-            <NuxtLink><Back /></NuxtLink>
+            <NuxtLink to="/"><Back /></NuxtLink>
         </div>
     </div>
 </template>
