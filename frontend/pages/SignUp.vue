@@ -100,7 +100,7 @@
       <DarktoLight />
   </div>
   <div class="absolute flex top-10 start-10">
-    <a href="/" class="cursor-pointer"><Back /></a>
+    <NuxtLink to="/"><Back /></NuxtLink>
   </div>
 </template>
 <script>
