@@ -5,7 +5,6 @@ const themeStore = useThemeStore();
 onBeforeMount(()=>{
   themeStore.isDark = JSON.parse(localStorage.getItem('dark')) || false;
 })
-
 </script>
 
 <template>

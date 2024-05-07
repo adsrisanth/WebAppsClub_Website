@@ -23,12 +23,21 @@
                 </ul>
             </div>
             <div class="flex gap gap-5 pr-5">
-                <div class="bg-[#2831bc] text-white hover:bg-[#fe373b] font-inter hover:text-white duration-300 text-xl py-2 px-5 w-max h-max rounded-xl">
-                <NuxtLink to="/signin">Sign In</NuxtLink>
-                </div>
-                <div class="bg-[#2831bc] text-white hover:bg-[#1bbbd3] font-inter hover:text-white duration-300 text-xl py-2 px-5 w-max h-max rounded-xl">
-                    <NuxtLink to="/signup">Sign up</NuxtLink>
-                </div>
+                <NuxtLink to="/signin">
+                    <div class="bg-[#2831bc] text-white hover:bg-[#fe373b] font-inter hover:text-white duration-300 text-xl py-2 px-5 w-max h-max rounded-xl">
+                        <span>Sign In</span>
+                    </div>
+                </NuxtLink>
+                <NuxtLink to="/signup">
+                    <div class="bg-[#2831bc] text-white hover:bg-[#1bbbd3] font-inter hover:text-white duration-300 text-xl py-2 px-5 w-max h-max rounded-xl">
+                        <span>Sign up</span>
+                    </div>
+                </NuxtLink>
+                <a href="https://www.kluniversity.in/" target="_blank" rel="noopener noreferrer">
+                    <div class="bg-[#a51c24] text-white hover:bg-red-900 font-oswald hover:text-white duration-300 text-xl py-2 px-5 w-max h-max rounded-xl">
+                        <span>KLSAC</span>
+                    </div>
+                </a>
             </div>
         </div>
         <!---Footer-->
@@ -53,5 +62,9 @@ const themeStore = useThemeStore();
 onMounted(() => { 
     setTimeout(() => { isLoading.value = false; }, 2000);
 });
+
+useHead({
+  title:"WebApps | KLSAC"
+})
 
 </script>

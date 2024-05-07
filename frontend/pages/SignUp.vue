@@ -103,17 +103,19 @@
     <NuxtLink to="/"><Back /></NuxtLink>
   </div>
 </template>
-<script>
-export default {
-  data() {
-    return {
-      isLoading: true 
-    };
-  },
-  mounted() {
-    setTimeout(() => {
-      this.isLoading = false; 
-    }, 2000); 
-  }
-};
+<script setup>
+import { ref, onMounted } from 'vue';
+import { useThemeStore } from '@/store/ThemeStore';
+
+const isLoading = ref(true);
+const themeStore = useThemeStore();
+
+onMounted(() => { 
+    setTimeout(() => { isLoading.value = false; }, 2000);
+});
+
+useHead({
+  title:"WebApps - SignUp"
+})
+
 </script>

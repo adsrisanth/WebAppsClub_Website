@@ -1,6 +1,5 @@
 <template>
     <div>
-        <!-- //TODO: Here u can check that bg changes on theme change -->
         <div class="w-screen h-screen flex items-center justify-center dark:bg-gray-950 bg-slate-100 dark:text-white text-black">
             <div class="absolute ">
                 <div class="flex justify-center place-items-center">
@@ -46,7 +45,7 @@
                         </div>
                         <div class="text-[#0ee2b7] hover:text-[#e7a93c] duration-300">
                             <div class="">
-                                <NuxtLink to="/">Forgot Password</NuxtLink>
+                                <NuxtLink to="/forgot">Forgot Password</NuxtLink>
                             </div>
                         </div>
                     </div>
@@ -78,19 +77,20 @@
         </div>
     </div>
 </template>
-<script>
-import LoadingSignIn from '~/components/LoadingSignIn.vue';
 
-export default {
-  data() {
-    return {
-      isLoading: true 
-    };
-  },
-  mounted() {
-    setTimeout(() => {
-      this.isLoading = false; 
-    }, 2000); 
-  }
-};
+<script setup>
+import { ref, onMounted } from 'vue';
+import { useThemeStore } from '@/store/ThemeStore';
+
+const isLoading = ref(true);
+const themeStore = useThemeStore();
+
+onMounted(() => { 
+    setTimeout(() => { isLoading.value = false; }, 2000);
+});
+
+useHead({
+  title:"WebApps - SignIn"
+})
+
 </script>
