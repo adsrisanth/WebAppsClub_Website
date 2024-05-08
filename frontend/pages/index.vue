@@ -1,5 +1,5 @@
 <template>
-    <div class="w-screen h-screen md:w-full bg-slate-200 dark:bg-gray-900">
+    <div class="w-screen ssm:w-full vsm:w-screen sm:w-screen h-screen vvsm:w-screen md:w-full bg-slate-200 dark:bg-gray-900">
         <div class="absolute">
             <div class="flex justify-center place-items-center">
                 <LoadingHome v-if="isLoading"/>
@@ -9,38 +9,8 @@
             <DarktoLight />
         </div>
         <!---NavBar-->
-        <div class="flex justify-between items-center dark:bg-gray-950 bg-white border-b border-gray-300 dark:border-gray-900 shadow-xl py-4 px-6">
-            <div class="ml-6">
-                <NuxtLink to="/"><img v-if="themeStore.isDark" src="../assets/images/clublogolight.png" class="w-fit h-20" alt="clublogo">
-                <img v-else src="../assets/images/clublogodark.png" class="w-fit h-20" alt="clublogo"></NuxtLink>
-            </div>
-            <div>
-                <ul class="flex space-x-4 text-2xl font-inter gap gap-5">
-                    <li><NuxtLink to='/'><div class="text-gray-800 dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Home</div></NuxtLink></li>
-                    <li><NuxtLink to='/'><div class="text-gray-800 dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">About</div></NuxtLink></li>
-                    <li><NuxtLink to='/'><div class="text-gray-800 dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Services</div></NuxtLink></li>
-                    <li><NuxtLink to='/'><div class="text-gray-800 dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Contact</div></NuxtLink></li>
-                </ul>
-            </div>
-            <div class="flex gap gap-5 pr-5">
-                <NuxtLink to="/signin">
-                    <div class="bg-[#2831bc] text-white hover:bg-[#fe373b] font-inter hover:text-white duration-300 text-xl py-2 px-5 w-max h-max rounded-xl">
-                        <span>Sign In</span>
-                    </div>
-                </NuxtLink>
-                <NuxtLink to="/signup">
-                    <div class="bg-[#2831bc] text-white hover:bg-[#1bbbd3] font-inter hover:text-white duration-300 text-xl py-2 px-5 w-max h-max rounded-xl">
-                        <span>Sign up</span>
-                    </div>
-                </NuxtLink>
-                <a href="https://www.kluniversity.in/" target="_blank" rel="noopener noreferrer">
-                    <div class="bg-[#a51c24] text-white hover:bg-red-900 font-oswald hover:text-white duration-300 text-xl py-2 px-5 w-max h-max rounded-xl">
-                        <span>KLSAC</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="flex flex-col mx-20 md:flex-row h-[90vh] place-items-center justify-center gap-16">
+        <NavBar />
+        <div class="flex flex-col  md:flex-row h-full place-items-center justify-center gap-16">
             <!-- Image Section -->
             <div class="md:w-1/2 md:flex md:overflow-hidden hover:shadow-lg hover:shadow-[#e7a93c] hover:rounded-3xl dark:hover:shadow-[#0ee2b7] hover:duration-1000">
                 <NuxtLink to="/">
