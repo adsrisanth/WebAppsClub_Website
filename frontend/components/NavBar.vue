@@ -1,7 +1,7 @@
 <template>
 	<nav class="relative px-4 py-4 flex justify-between items-center dark:bg-black bg-white">
-		<NuxtLink to="/"><img v-if="themeStore.isDark"  src="../assets/images/clublogolight.png" class="w-fit h-[4.4rem]" alt="clublogo">
-			<img v-else src="../assets/images/clublogodark.png" class="w-fit h-16" alt="clublogo"></NuxtLink>
+		<NuxtLink to="/"><img v-if="themeStore.isDark"  src="../assets/images/clublogolight.png" class="w-fit h-12" alt="clublogo">
+			<img v-else src="../assets/images/clublogodark.png" class="w-fit h-12" alt="clublogo"></NuxtLink>
 	  	<div class="lg:hidden">
 			<button @click="toggleMenu" class="navbar-burger flex items-center text-blue-600 p-3">
 		  		<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -26,7 +26,8 @@
 	  	<div v-if="menuHidden" class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25" @click="toggleMenu"></div>
 	  	<nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 dark:bg-gray-900 bg-white border-r overflow-y-auto">
 			<div class="flex items-center justify-between">
-    			<img src="../assets/images/clublogodark.png" width="200px" class="mb-5" alt="">
+    			<NuxtLink to="/"><img v-if="themeStore.isDark" src="../assets/images/clublogolight.png" class="mb-5 h-16" alt="clublogo">
+			<img v-else src="../assets/images/clublogodark.png" class="mb-5 h-16" alt="clublogo"></NuxtLink>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" @click="toggleMenu" class="text-gray-600 hover focus:outline-none h-6 w-6 cursor-pointer">
 				    <path fill="currentColor" d="M114,100l49-49a9.9,9.9,0,0,0-14-14L100,86,51,37A9.9,9.9,0,0,0,37,51l49,49L37,149a9.9,9.9,0,0,0,14,14l49-49,49,49a9.9,9.9,0,0,0,14-14Z"></path>
 				</svg>
