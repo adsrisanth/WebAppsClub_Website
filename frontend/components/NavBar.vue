@@ -11,15 +11,15 @@
 			</button>
 	  	</div>
 	  	<ul class="hidden lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6">
-			<li><NuxtLink to="/" class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Home</NuxtLink></li>
-			<li><NuxtLink to="/" class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">About Us</NuxtLink></li>
-			<li><NuxtLink to="/" class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Services</NuxtLink></li>
-			<li><NuxtLink to="/" class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Pricing</NuxtLink></li>
-			<li><NuxtLink to="/" class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Contact</NuxtLink></li>
+			<li><NuxtLink to="/"  exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="text-gray-800 text-xl  dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Home</NuxtLink></li>
+			<li><NuxtLink to="/about" exact-active-class="font-bold ecolor"  class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">About Us</NuxtLink></li>
+			<li><NuxtLink to="/Services" exact-active-class="font-bold ecolor"  class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Services</NuxtLink></li>
+			<li><NuxtLink to="/Contact" exact-active-class="font-bold ecolor dark:text-[#000]"  class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Contact</NuxtLink></li>
 	  	</ul>
 	  	<div class="hidden lg:flex lg:items-center">
-			<NuxtLink to="/signin" class="py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold rounded-xl transition duration-200">Sign In</NuxtLink>
-			<NuxtLink to="/signup" class="py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200 ml-3">Sign Up</NuxtLink>
+			<NuxtLink to="/signin" class="py-2 px-6 bg-[#2831bc] hover:bg-[#fe373b] text-md text-white font-bold rounded-xl transition duration-300">Sign In</NuxtLink>
+			<NuxtLink to="/signup" class="py-2 px-6 bg-[#2831bc] hover:bg-[#1bbbd3] text-md text-white font-bold rounded-xl transition duration-300 ml-3">Sign Up</NuxtLink>
+			<a href="https://sac.kluniversity.in" class="py-2 px-6 bg-red-600 hover:bg-red-900 text-md text-white font-bold rounded-xl transition duration-300 ml-3">KLSAC</a>
 	  	</div>
 	</nav>
 	<div class="navbar-menu" :class="{ 'hidden': menuHidden }">
@@ -32,15 +32,15 @@
 				</svg>
 			</div>
 			<ul>
-			  	<li><NuxtLink to="/" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">Home</NuxtLink></li>
-			  	<li><NuxtLink to="/" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">About Us</NuxtLink></li>
-			  	<li><NuxtLink to="/" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">Services</NuxtLink></li>
-			  	<li><NuxtLink to="/" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">Pricing</NuxtLink></li>
-			  	<li><NuxtLink to="/" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">Contact</NuxtLink></li>
+			  	<li><NuxtLink to="/" exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">Home</NuxtLink></li>
+			  	<li><NuxtLink to="/about" exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">About Us</NuxtLink></li>
+			  	<li><NuxtLink to="/services" exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">Services</NuxtLink></li>
+			  	<li><NuxtLink to="/contact" exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">Contact</NuxtLink></li>
 			</ul>
 			<div class="mt-auto">
-			  	<a class="block px-4 py-3 mb-3 leading-loose text-xs text-center text-white font-semibold  bg-gray-50 hover:bg-gray-100 rounded-xl" href="#">Sign in</a>
-			  	<a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-xl" href="#">Sign Up</a>
+			  	<NuxtLink to="/signin" class="block px-4 py-3 mb-3 leading-loose text-xs text-center text-white font-semibold  bg-[#2831bc] hover:bg-[#fe373b] rounded-xl">Sign in</NuxtLink>
+			  	<NuxtLink to="/signup" class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-[#2831bc] hover:bg-[#1bbbd3] rounded-xl">Sign Up</NuxtLink>
+				<a href="https://sac.kluniversity.in" class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-red-600 hover:bg-red-900 rounded-xl">KLSAC</a>
 			</div>
 	  	</nav>
 	</div>
@@ -70,3 +70,8 @@ function handleClickOutside(event) {
   }
 }
 </script>
+<style>
+.ecolor{
+	color:#e7a93c;
+}
+</style>

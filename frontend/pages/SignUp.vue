@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen ssm:h-screen ssm:w-screen h-screen flex items-center justify-center bg-slate-100 dark:bg-gray-950 ">
+  <div class="w-full ssm:h-screen ssm:w-screen h-screen flex items-center justify-center bg-slate-100 dark:bg-gray-950 ">
     <div class="absolute">
       <div class="flex justify-center place-items-center">
           <LoadingSignUp v-if="isLoading"/>
