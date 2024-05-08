@@ -1,11 +1,11 @@
 <template>
   <div class="w-screen ssm:h-screen ssm:w-screen h-screen flex items-center justify-center bg-slate-100 dark:bg-gray-950 ">
-    <div class="absolute ">
+    <div class="absolute">
       <div class="flex justify-center place-items-center">
           <LoadingSignUp v-if="isLoading"/>
       </div>
     </div>
-    <div class=" text-black dark:text-white sm:w-max-xl sm:mx-auto sm:m-[250px] sm:p-6">
+    <div class="text-black dark:text-white sm:w-max-xl sm:mx-auto sm:m-[250px] sm:p-6">
       <div class="text-center text-[34px] font-bold mb-3">
         <span>SIGN UP</span>
       </div>

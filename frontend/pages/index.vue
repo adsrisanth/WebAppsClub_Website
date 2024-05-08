@@ -1,6 +1,6 @@
 <template>
-    <div class="w-screen h-screen bg-slate-200 dark:bg-gray-900">
-        <div class="relative">
+    <div class="w-screen h-screen md:w-full bg-slate-200 dark:bg-gray-900">
+        <div class="absolute">
             <div class="flex justify-center place-items-center">
                 <LoadingHome v-if="isLoading"/>
             </div>
@@ -40,17 +40,22 @@
                 </a>
             </div>
         </div>
-        <div class="flex h-[90dvh] place-items-center justify-center gap gap-16">
-            <div class="w-1/3">
+        <div class="flex flex-col mx-20 md:flex-row h-[90vh] place-items-center justify-center gap-16">
+            <!-- Image Section -->
+            <div class="md:w-1/2 md:flex md:overflow-hidden hover:shadow-lg hover:shadow-[#e7a93c] hover:rounded-3xl dark:hover:shadow-[#0ee2b7] hover:duration-1000">
+                <NuxtLink to="/">
+                    <img src="../assets/images/team.jpg" class="w-full rounded-3xl" alt="Team Image">
+                </NuxtLink>
+            </div>
+            <!-- Text Section -->
+            <div class="md:w-1/2">
                 <span class="text-[42px] font-montserrat text-[#e7a93c] font-bold dark:text-[#0ee2b7]">Who We Are</span>
-                <span class="flex flex-row text-xl font-inter dark:text-slate-200 mt-4" style="line-height: 1.8;"> Welcome to WebApps, a dynamic club dedicated to comprehensive app development. Our diverse community focuses on a wide range of programming languages, tools, and cutting-edge technologies. From Kotlin and pure Java for Android app development, to web3 and blockchain technologies, including decentralized applications (dApps) and smart contracts, we cover it all.
+                <span class="flex flex-row md:text-[16px] text-xl font-inter dark:text-slate-200 mt-4" style="line-height: 1.8;">
+                    Welcome to WebApps, a dynamic club dedicated to comprehensive app development. Our diverse community focuses on a wide range of programming languages, tools, and cutting-edge technologies. From Kotlin and pure Java for Android app development, to web3 and blockchain technologies, including decentralized applications (dApps) and smart contracts, we cover it all.
                     In addition, we dive into the world of cryptocurrencies, exploring their underlying blockchain technology and the exciting possibilities of decentralized finance. Our members also gain expertise in web development, mastering frontend technologies such as HTML, CSS, React.js, Nuxt.js, Next.js, and Vue.js, along with Tailwind CSS for responsive design.
                     On the backend, we delve into Express.js, MySQL, Postman, and Node.js, enabling our members to build robust and scalable applications. And for those seeking a touch of elegance, we even venture into the realm of design, utilizing Figma for creating visually stunning interfaces.
                     With a strong focus on continuous learning, we strive to stay up-to-date with emerging frameworks and technologies. Join us at WebApps, where innovation, collaboration, and growth await you on the exhilarating journey of app development.
                 </span>
-            </div>
-            <div class="hover:shadow-lg hover:shadow-[#e7a93c] hover:rounded-3xl dark:hover:shadow-[#0ee2b7] hover:duration-1000">
-                <NuxtLink to="/"><img src="../assets/images/team.jpg" width="600px" class="rounded-3xl"></NuxtLink>
             </div>
         </div>
         <!---Footer-->
