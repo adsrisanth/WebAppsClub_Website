@@ -1,33 +1,33 @@
-<template>
-    <div class="spinnerContainer bg-slate-100 dark:bg-gray-950">
-        <div class="spinner">
-        </div>
-        <div class="loader">
-            <p>Loading</p>
-            <div class="words">
-              <span class="word">Home Page</span>
-              <span class="word">Home Page</span>
-              <span class="word">Home Page</span>
-              <span class="word">Home Page</span>
-              <span class="word">Home Page</span>
-              <span class="word">Home Page</span>
-              <span class="word">Home Page</span>
-              <span class="word">Home Page</span>
-              <span class="word">Home Page</span>
-              <span class="word">Home Page</span>
-              <span class="word">Home Page</span>
-              <span class="word">Home Page</span>
-            </div>
-        </div>
-    </div>
+<template> <div class="spinnerContainer bg-slate-100 dark:bg-gray-950"> 
+  <div class="spinner"></div> <div class="loader">
+     <p>Loading</p> 
+     <div class="words"> 
+      <span class="word">Home Page</span>
+      <span class="word">Home Page</span>
+      <span class="word">Home Page</span>
+      <span class="word">Home Page</span>
+      <span class="word">Home Page</span>
+      <span class="word">Home Page</span>
+      <span class="word">Home Page</span>
+      <span class="word">Home Page</span>
+      <span class="word">Home Page</span>
+      <span class="word">Home Page</span>
+      <span class="word">Home Page</span>
+      <span class="word">Home Page</span>
+      <span class="word">Home Page</span>
+      <span class="word">Home Page</span>
+       </div>
+     </div>
+      </div>
 </template>
 <style>
 .spinnerContainer {
-  display: absolute;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: full;
+  width: 100vw;
+  height: 100vh;
 }
 
 .spinner {
