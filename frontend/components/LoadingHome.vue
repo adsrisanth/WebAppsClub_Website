@@ -1,5 +1,5 @@
 <template>
-    <div class="spinnerContainer bg-slate-100 dark:bg-gray-950 min-h-[100vh]">
+    <div class="spinnerContainer bg-slate-100 dark:bg-gray-950">
         <div class="spinner">
         </div>
         <div class="loader">
@@ -23,11 +23,12 @@
 </template>
 <style>
 .spinnerContainer {
-  display: flex;
+  display: absolute;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  width: 100vw;
+  height: 100vh;
 }
 
 .spinner {

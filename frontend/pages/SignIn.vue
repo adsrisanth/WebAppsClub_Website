@@ -3,7 +3,7 @@
         <div class="w-screen h-screen flex items-center justify-center dark:bg-gray-950 bg-slate-100 dark:text-white text-black">
             <div class="absolute">
                 <div class="flex justify-center place-items-center">
-                    <LoadingSignIn v-if="isLoading"/>
+                    <Loading v-if="isLoading"/>
                 </div>
             </div>
             <div class=" text-white">

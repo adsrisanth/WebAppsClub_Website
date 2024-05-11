@@ -2,7 +2,7 @@
     <div class="w-full h-full ssm:w-full vsm:w-screen sm:w-screen vvsm:w-screen md:w-full bg-slate-200 dark:bg-gray-900">
         <div class="absolute">
             <div class="flex w-full min-h-[100vh] justify-center place-items-center">
-                <LoadingWizards v-if="isLoading"/>
+                <Loading v-if="isLoading"/>
             </div>
         </div>
         <div class="fixed bottom-10 right-10 z-50">
@@ -10,7 +10,7 @@
         </div>
         <!---NavBar-->
         <NavBar />
-        <div class="flex justify-center items-center w-full min-h-screen bg-slate-200 dark:bg-gray-900 dark:text-white text-black">
+        <div class="flex justify-center items-center w-full min-h-screen bg-slate-200 dark:bg-gray-900 dark:text-white text-black"v-if="!isLoading">
             <div class="flex flex-col gap gap-5 text-center">
                 <span class="text-[50px] font-mono font-bold">Meet our Wizards</span>
             </div>

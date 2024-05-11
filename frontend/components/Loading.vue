@@ -1,41 +1,45 @@
-<template>
-    <div class="spinnerContainer  bg-slate-100 dark:bg-gray-950">
-        <div class="spinner">
+<template> <div class="spinnerContainer bg-slate-100 dark:bg-gray-950"> 
+  <div class="spinner"></div> <div class="loader">
+     <p>Loading</p> 
+     <div class="words"> 
+      <span class="word">{{ currentPage }}</span>
+      <span class="word">{{ currentPage }}</span>
+      <span class="word">{{ currentPage }}</span>
+      <span class="word">{{ currentPage }}</span>
+      <span class="word">{{ currentPage }}</span>
+      <span class="word">{{ currentPage }}</span>
+      <span class="word">{{ currentPage }}</span>
+      <span class="word">{{ currentPage }}</span>
+      <span class="word">{{ currentPage }}</span>
+      <span class="word">{{ currentPage }}</span>
+      <span class="word">{{ currentPage }}</span>
+      <span class="word">{{ currentPage }}</span>
+      <span class="word">{{ currentPage }}</span>
+      <span class="word">{{ currentPage }}</span>
+       </div>
         </div>
-        <div class="loader">
-            <p>Loading</p>
-            <div class="words">
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-            </div>
-        </div>
-    </div>
+         </div>
 </template>
+
+<script setup>
+import { ref, onMounted } from 'vue';
+
+const currentPage = ref('');
+
+onMounted(() => { 
+  const path = window.location.pathname; 
+   const pageName = path.substring(1);
+    currentPage.value = pageName;
+});
+</script>
 <style>
 .spinnerContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: full;
-  height: full;
+  width: 100vw;
+  height: 100vh;
 }
 
 .spinner {
