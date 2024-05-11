@@ -7,6 +7,3 @@
     </div>
     <Footer />
 </template>
-<script setup>
-import Footer from './footer.vue'
-</script>

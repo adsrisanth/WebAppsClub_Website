@@ -12,7 +12,7 @@
 	  	</div>
 	  	<ul class="hidden lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6">
 			<li><NuxtLink to="/"  exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="text-gray-800 text-xl  dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Home</NuxtLink></li>
-			<li><NuxtLink to="/about" exact-active-class="font-bold ecolor"  class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">About Us</NuxtLink></li>
+			<li><NuxtLink to="/aboutus" exact-active-class="font-bold ecolor"  class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">About Us</NuxtLink></li>
 			<li><NuxtLink to="/Services" exact-active-class="font-bold ecolor"  class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Services</NuxtLink></li>
 			<li><NuxtLink to="/Contact" exact-active-class="font-bold ecolor dark:text-[#000]"  class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Contact</NuxtLink></li>
 	  	</ul>
@@ -34,7 +34,7 @@
 			</div>
 			<ul>
 			  	<li><NuxtLink to="/" exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">Home</NuxtLink></li>
-			  	<li><NuxtLink to="/about" exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">About Us</NuxtLink></li>
+			  	<li><NuxtLink to="/aboutus" exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">About Us</NuxtLink></li>
 			  	<li><NuxtLink to="/services" exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">Services</NuxtLink></li>
 			  	<li><NuxtLink to="/contact" exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">Contact</NuxtLink></li>
 			</ul>
