@@ -43,7 +43,7 @@ onMounted(() => {
 });
 
 useHead({
-  title:"WebApps - About"
+  title:"WebApps - AboutUs"
 })
 
 </script>

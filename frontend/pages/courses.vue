@@ -2,7 +2,7 @@
     <div class="w-full h-full ssm:w-full vsm:w-screen sm:w-screen vvsm:w-screen md:w-full bg-slate-200 dark:bg-gray-900">
         <div class="absolute">
             <div class="flex w-full min-h-[100vh] justify-center place-items-center">
-                <LoadingHome v-if="isLoading"/>
+                <LoadingCourses v-if="isLoading"/>
             </div>
         </div>
         <div class="fixed bottom-10 right-10 z-50">
@@ -12,13 +12,10 @@
         <NavBar />
         <div class="flex justify-center items-center w-full min-h-screen bg-slate-200 dark:bg-gray-900 dark:text-white text-black">
             <div class="flex flex-col gap gap-5 text-center">
-                <span class="text-[50px] font-mono font-bold">WebApps Club</span>
-                <span class="text-[24px] font-montserrat">- Decentralized -</span>
+                <span class="text-[50px] font-mono font-bold">Courses</span>
             </div>
         </div>
-        <div>
-            <Footer />
-        </div>
+        <Footer />
     </div>
 </template>
 
@@ -35,7 +32,7 @@ onMounted(() => {
 });
 
 useHead({
-  title:"WebApps | KLSAC"
+  title:"WebApps - Gallery"
 })
 
 </script>

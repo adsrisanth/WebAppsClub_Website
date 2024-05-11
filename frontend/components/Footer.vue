@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-slate-200 dark:bg-gray-900 text-black dark:text-white py-4">
+    <div class="bg-slate-200 dark:bg-gray-900 text-black dark:text-white py-4">
       <div class="container mx-auto flex justify-center items-center flex-col">
         <div class="mb-2">
             <span>Designed and Developed by</span>
@@ -11,7 +11,13 @@
         </div>
         <p class="text-sm text-gray-400">&copy; {{ currentYear }} WebApps Club. All rights reserved.</p>
       </div>
-    </footer>
+      <div class="place-content-end">
+        <a href="instagram.com"></a>
+        <a href="linkedin.com"></a>
+        <a href="x.com"></a>
+        <a href="github.com"></a>
+      </div>
+    </div>
 </template>
 <!-- #2531b9-blue
 #e7a93c-gold

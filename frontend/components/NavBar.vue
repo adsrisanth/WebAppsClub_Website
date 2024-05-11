@@ -13,8 +13,9 @@
 	  	<ul class="hidden lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6">
 			<li><NuxtLink to="/"  exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="text-gray-800 text-xl  dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Home</NuxtLink></li>
 			<li><NuxtLink to="/aboutus" exact-active-class="font-bold ecolor"  class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">About Us</NuxtLink></li>
-			<li><NuxtLink to="/Services" exact-active-class="font-bold ecolor"  class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Services</NuxtLink></li>
-			<li><NuxtLink to="/Contact" exact-active-class="font-bold ecolor dark:text-[#000]"  class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Contact</NuxtLink></li>
+			<li><NuxtLink to="/ourwizards" exact-active-class="font-bold ecolor"  class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Our Wizards</NuxtLink></li>
+			<li><NuxtLink to="/gallery" exact-active-class="font-bold ecolor dark:text-[#000]"  class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Gallery</NuxtLink></li>
+			<li><NuxtLink to="/courses" exact-active-class="font-bold ecolor dark:text-[#000]"  class="text-gray-800 text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Courses</NuxtLink></li>
 	  	</ul>
 	  	<div class="hidden lg:flex lg:items-center">
 			<NuxtLink to="/signin" class="py-2 px-6 bg-[#2831bc] hover:bg-[#fe373b] text-md text-white font-bold rounded-xl transition duration-300">Sign In</NuxtLink>
@@ -35,8 +36,8 @@
 			<ul>
 			  	<li><NuxtLink to="/" exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">Home</NuxtLink></li>
 			  	<li><NuxtLink to="/aboutus" exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">About Us</NuxtLink></li>
-			  	<li><NuxtLink to="/services" exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">Services</NuxtLink></li>
-			  	<li><NuxtLink to="/contact" exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">Contact</NuxtLink></li>
+			  	<li><NuxtLink to="/ourwizards" exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">Our Wizards</NuxtLink></li>
+			  	<li><NuxtLink to="/gallery" exact-active-class="font-bold ecolor dark:text-[#0ee2b7]" class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">Contact</NuxtLink></li>
 			</ul>
 			<div class="mt-auto">
 			  	<NuxtLink to="/signin" class="block px-4 py-3 mb-3 leading-loose text-xs text-center text-white font-semibold  bg-[#2831bc] hover:bg-[#fe373b] rounded-xl">Sign in</NuxtLink>

@@ -1,29 +1,30 @@
 <template>
-    <div class="spinnerContainer  bg-slate-100 dark:bg-gray-950">
+    <div class="spinnerContainer bg-slate-100 dark:bg-gray-950 min-h-[100vh]">
         <div class="spinner">
         </div>
         <div class="loader">
             <p>Loading</p>
             <div class="words">
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
-              <span class="word">About US</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
+              <span class="word">Courses</span>
             </div>
         </div>
     </div>
@@ -34,8 +35,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: full;
-  height: full;
+
 }
 
 .spinner {
