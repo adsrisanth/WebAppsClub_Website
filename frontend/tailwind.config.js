@@ -23,6 +23,7 @@ export default {
       }
     },
     screens: {
+      lxl: '1500px',
       xxl: '1200px',
       xl: '992px',
       lg: '840px',
