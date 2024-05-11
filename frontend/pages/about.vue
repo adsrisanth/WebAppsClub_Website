@@ -5,7 +5,7 @@
             <LoadingAbout v-if="isLoading"/>
         </div>
     </div>
-    <div class="text-black w-full h-[100vh] dark:text-white bg-slate-200 dark:bg-gray-900">
+    <div class="text-black w-full min-h-[100vh] dark:text-white bg-slate-200 dark:bg-gray-900">
         <div class="flex flex-col vvsm:p-6 lg:p-24 lxl:flex-row h-full xl:place-items-center xl:justify-center gap-16">
             <!-- Image Section -->
             <div class="md:flex md:overflow-hidden hover:shadow-lg hover:shadow-[#e7a93c] hover:rounded-xl dark:hover:shadow-[#0ee2b7] hover:duration-1000">
