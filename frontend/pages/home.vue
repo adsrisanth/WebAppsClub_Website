@@ -1,16 +1,16 @@
 <template>
     <div>
-        <div class="flex flex-col p-24 md:flex-row h-full place-items-center justify-center gap-16">
+        <div class="flex flex-col vvsm:p-12 p-24 md:flex-row h-full place-items-center justify-center gap-16">
             <!-- Image Section -->
-            <div class="md:w-1/2 md:flex md:overflow-hidden hover:shadow-lg hover:shadow-[#e7a93c] hover:rounded-3xl dark:hover:shadow-[#0ee2b7] hover:duration-1000">
+            <div class="vvsm:w-full md:w-1/2 md:flex md:overflow-hidden hover:shadow-lg hover:shadow-[#e7a93c] hover:rounded-3xl dark:hover:shadow-[#0ee2b7] hover:duration-1000">
                 <NuxtLink to="/">
                     <img src="../assets/images/team.jpg" class="w-full rounded-3xl" alt="Team Image">
                 </NuxtLink>
             </div>
             <!-- Text Section -->
             <div class="md:w-1/2">
-                <span class="text-[42px] font-montserrat text-[#e7a93c] font-bold dark:text-[#0ee2b7]">WHO ARE WE ¿</span>
-                <span class="flex flex-row md:text-[16px] text-xl font-inter dark:text-slate-200 mt-4" style="line-height: 1.8;">
+                <span class="vvsm:text-4xl text-[42px] font-montserrat text-[#e7a93c] font-bold dark:text-[#0ee2b7]">WHO ARE WE ¿</span>
+                <span class="vvsm:text-sm flex flex-row md:text-[16px] text-xl font-inter dark:text-slate-200 mt-4" style="line-height: 1.8;">
                     Welcome to WebApps, a dynamic club dedicated to comprehensive app development. Our diverse community focuses on a wide range of programming languages, tools, and cutting-edge technologies. From Kotlin and pure Java for Android app development, to web3 and blockchain technologies, including decentralized applications (dApps) and smart contracts, we cover it all.
                     In addition, we dive into the world of cryptocurrencies, exploring their underlying blockchain technology and the exciting possibilities of decentralized finance. Our members also gain expertise in web development, mastering frontend technologies such as HTML, CSS, React.js, Nuxt.js, Next.js, and Vue.js, along with Tailwind CSS for responsive design.
                     On the backend, we delve into Express.js, MySQL, Postman, and Node.js, enabling our members to build robust and scalable applications. And for those seeking a touch of elegance, we even venture into the realm of design, utilizing Figma for creating visually stunning interfaces.
