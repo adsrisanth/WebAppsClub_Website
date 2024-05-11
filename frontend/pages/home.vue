@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="flex flex-col vvsm:p-12 p-24 md:flex-row h-full place-items-center justify-center gap-16">
+        <div class="flex flex-col vvsm:p-8 p-24 md:flex-row h-full place-items-center justify-center gap-16">
             <!-- Image Section -->
             <div class="vvsm:w-full md:w-1/2 md:flex md:overflow-hidden hover:shadow-lg hover:shadow-[#e7a93c] hover:rounded-3xl dark:hover:shadow-[#0ee2b7] hover:duration-1000">
                 <NuxtLink to="/">
