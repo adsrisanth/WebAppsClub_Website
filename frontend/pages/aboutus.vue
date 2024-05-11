@@ -1,10 +1,10 @@
 <template>
     <NavBar />
     <div class="absolute">
-            <div class="flex w-full h-full justify-center place-items-center">
-                <Loading v-if="isLoading"/>
-            </div>
+        <div class="flex w-full h-full justify-center place-items-center">
+            <Loading v-if="isLoading"/>
         </div>
+    </div>
     <div class="text-black w-full min-h-[100vh] dark:text-white bg-slate-200 dark:bg-gray-900" v-if="!isLoading" >
         <div class="flex flex-col vvsm:p-6 lg:p-24 lxl:flex-row h-full xl:place-items-center xl:justify-center gap-16" >
             <!-- Image Section -->

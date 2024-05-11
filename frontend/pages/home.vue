@@ -1,10 +1,10 @@
 <template> 
-    <div class="w-full h-full ssm:w-full vsm:w-screen sm:w-screen vvsm:w-screen md:w-full bg-slate-200 dark:bg-gray-900">
-        <div class="absolute">
-            <div class="flex w-full min-h-[100vh] justify-center place-items-center"> 
-                <LoadingHome v-if="isLoading" /> 
-            </div> 
+    <div class="absolute">
+        <div class="flex w-full min-h-[100vh] justify-center place-items-center"> 
+            <LoadingHome v-if="isLoading" /> 
         </div> 
+    </div> 
+    <div class="w-full h-full ssm:w-full vsm:w-screen sm:w-screen vvsm:w-screen md:w-full bg-slate-200 dark:bg-gray-900">
         <div class="fixed bottom-10 right-10 z-50"> 
             <DarktoLight /> 
         </div>

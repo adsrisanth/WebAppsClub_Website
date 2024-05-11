@@ -2,7 +2,7 @@
     <div class="bg-white dark:bg-gray-950 text-black dark:text-white">
         <div>
             <div class="flex md:flex-row vvsm:flex-col gap gap-2 p-5 bg-gray-100 dark:bg-gray-800">
-                <div class="flex items-center md:border-r-4 md:border-black p-5">
+                <div class="flex items-center md:border-r-4 md:border-black dark:md:border-gray-200 p-5">
                     <NuxtLink to="/"><img v-if="themeStore.isDark"  src="../assets/images/clublogolight.png" class="w-72 md:w-96" alt="clublogo">
 		    	<img v-else src="../assets/images/clublogodark.png" class="w-72 md:w-96" alt="clublogo"></NuxtLink>
                 </div>
