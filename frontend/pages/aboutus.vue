@@ -1,12 +1,12 @@
 <template>
     <NavBar />
-    <div class="text-black w-full min-h-[100vh] dark:text-white bg-slate-200 dark:bg-gray-900">
-        <div class="absolute">
+    <div class="absolute">
             <div class="flex w-full h-full justify-center place-items-center">
                 <Loading v-if="isLoading"/>
             </div>
         </div>
-        <div class="flex flex-col vvsm:p-6 lg:p-24 lxl:flex-row h-full xl:place-items-center xl:justify-center gap-16">
+    <div class="text-black w-full min-h-[100vh] dark:text-white bg-slate-200 dark:bg-gray-900" v-if="!isLoading" >
+        <div class="flex flex-col vvsm:p-6 lg:p-24 lxl:flex-row h-full xl:place-items-center xl:justify-center gap-16" >
             <!-- Image Section -->
             <div class="md:flex md:overflow-hidden hover:shadow-lg hover:shadow-[#e7a93c] hover:rounded-xl dark:hover:shadow-[#0ee2b7] hover:duration-1000">
                 <NuxtLink to="/">
@@ -25,6 +25,7 @@
                 </span>
             </div>
         </div>
+        <Footer />
     </div>
     <div class="fixed bottom-10 right-10 z-50">
         <DarktoLight />
