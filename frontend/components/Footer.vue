@@ -26,18 +26,18 @@
                         <span>Guntur</span>
                     </div>
                     <div class="cursor-pointer pt-2 hover:text-[#e7a93c] dark:hover:text-[#0ee2b7] duration-300" @click="redirectToEmail">
-                        <span class="vvsm:text-lg md:text-xl">webapps@kluniversity.in</span>
+                        <span class="vvsm:text-sm md:text-xl">webapps@kluniversity.in</span>
                     </div>                
                     <div class="pt-5 cursor-pointer hover:text-[#e7a93c] dark:hover:text-[#0ee2b7] duration-300">Campus Map</div>
                     <div class="pt-5 cursor-pointer hover:text-[#e7a93c] dark:hover:text-[#0ee2b7] duration-300">Contact US</div>
                 </div>
                 <div class="flex flex-col vvsm:text-sm md:text-lg font-poppins pt-8 vvsm:place-items-center md:place-items-start">
                     <ul>
-			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/"  exact-active-class="font-bold text-[#e7a93c]" class="md:text-xl vvsm:text-lg flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Home</NuxtLink></li>
-			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/AboutUs" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-lg flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 text-white">About Us</NuxtLink></li>
-			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/OurWizards" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-lg flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Our Wizards</NuxtLink></li>
-			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/Gallery" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-lg flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Gallery</NuxtLink></li>
-			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/Courses" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-lg flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Courses</NuxtLink></li>
+			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/"  exact-active-class="font-bold text-[#e7a93c]" class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Home</NuxtLink></li>
+			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/AboutUs" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 text-white">About Us</NuxtLink></li>
+			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/OurWizards" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Our Wizards</NuxtLink></li>
+			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/Gallery" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Gallery</NuxtLink></li>
+			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/Courses" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Courses</NuxtLink></li>
 	  	            </ul>
                 </div>
                 <div class="flex flex-col vvsm:text-sm md:text-lg pt-8">
