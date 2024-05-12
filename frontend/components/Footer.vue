@@ -1,7 +1,7 @@
 <template>
     <div class="bg-[#113194] text-black dark:text-white ">
         <div class="bg-[#2533b7] text-white">
-            <div class="flex flex-col md:flex-row justify-between pr-28 pl-28">
+            <div class="flex flex-col md:flex-row justify-between pr-12 pl-12">
                 <div class="w-fit">
                     <div class="md:w-full bg-slate-100 dark:bg-gray-900 rounded-b-xl justify-center">
                         <div class="p-10 vvsm:flex vvsm:justify-center md:w-[250px] h-1/2">
