@@ -1,7 +1,7 @@
 <template>
     <div class="bg-[#113194] text-black dark:text-white ">
         <div class="bg-[#2533b7] text-white">
-            <div class="flex flex-col md:flex-row justify-between pr-8 pl-8 md:pr-44 md:pl-44">
+            <div class="flex flex-col md:flex-row justify-between pr-8 pl-8 md:pr-56 md:pl-56">
                 <div class="w-fit">
                     <div class="md:w-full bg-slate-100 dark:bg-gray-900 rounded-b-xl justify-center">
                         <div class="p-10 vvsm:flex vvsm:justify-center md:w-[250px] h-1/2">
@@ -19,9 +19,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-col md:text-lg pt-8">
-                    <div class="flex flex-col font-poppins">
-                        <span class="text-2xl font-lato pb-5">Info</span>
+                <div class="flex flex-col md:text-lg pt-8 vvsm:place-items-center md:place-items-start">
+                    <div class="flex flex-col font-poppins vvsm:place-items-center md:place-items-start">
+                        <span class=" text-2xl font-lato pb-5">Info</span>
                         <span>K L University Greenfields</span>
                         <span>Vaddeswaram-522 502.</span>
                         <span>Guntur</span>
@@ -32,23 +32,21 @@
                     <div class="pt-5 cursor-pointer hover:text-[#e7a93c] dark:hover:text-[#0ee2b7] duration-300">Campus Map</div>
                     <div class="pt-5 cursor-pointer hover:text-[#e7a93c] dark:hover:text-[#0ee2b7] duration-300">Contact US</div>
                 </div>
-                <div class="flex flex-col md:text-lg font-poppins pt-8">
+                <div class="flex flex-col md:text-lg font-poppins pt-8 vvsm:place-items-center md:place-items-start">
                     <div class="text-2xl font-lato pb-5">Links</div>
                     <ul>
-			            <li class="pb-2"><NuxtLink to="/"  exact-active-class="font-bold text-[#e7a93c]" class="text-xl  dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Home</NuxtLink></li>
-			            <li class="pb-2"><NuxtLink to="/AboutUs" exact-active-class="font-bold text-[#e7a93c]"  class="text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 text-white">About Us</NuxtLink></li>
-			            <li class="pb-2"><NuxtLink to="/OurWizards" exact-active-class="font-bold text-[#e7a93c]"  class="text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Our Wizards</NuxtLink></li>
-			            <li class="pb-2"><NuxtLink to="/Gallery" exact-active-class="font-bold text-[#e7a93c]"  class="text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Gallery</NuxtLink></li>
-			            <li class="pb-2"><NuxtLink to="/Courses" exact-active-class="font-bold text-[#e7a93c]"  class="text-xl dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Courses</NuxtLink></li>
+			            <li class="pb-2"><NuxtLink to="/"  exact-active-class="font-bold text-[#e7a93c]" class="text-xl flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Home</NuxtLink></li>
+			            <li class="pb-2"><NuxtLink to="/AboutUs" exact-active-class="font-bold text-[#e7a93c]"  class="text-xl flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 text-white">About Us</NuxtLink></li>
+			            <li class="pb-2"><NuxtLink to="/OurWizards" exact-active-class="font-bold text-[#e7a93c]"  class="text-xl flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Our Wizards</NuxtLink></li>
+			            <li class="pb-2"><NuxtLink to="/Gallery" exact-active-class="font-bold text-[#e7a93c]"  class="text-xl flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Gallery</NuxtLink></li>
+			            <li class="pb-2"><NuxtLink to="/Courses" exact-active-class="font-bold text-[#e7a93c]"  class="text-xl flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Courses</NuxtLink></li>
 	  	            </ul>
                 </div>
                 <div class="flex flex-col md:text-lg pt-8">
-                    <div class="text-2xl font-lato pb-5">Quick Links</div>
+                    <div class="text-2xl font-lato pb-5 flex vvsm:place-content-center md:place-content-start">Quick Links</div>
                     <ul>
-                        <li class="pb-2 font-poppins hover:text-[#e7a93c] dark:text-[#0ee2b7] duration-300"><a href="https://www.kluniversity.in/" target="_blank" rel="noopener noreferrer">KL University</a></li>
-                        <li class="pb-2 font-poppins hover:text-[#e7a93c] dark:text-[#0ee2b7] duration-300"><a href="https://sac.kluniversity.in/" target="_blank" rel="noopener noreferrer">KL SAC</a></li>
-                        <li class="pb-2 font-poppins hover:text-[#e7a93c] dark:text-[#0ee2b7] duration-300"><a href="" target="_blank" rel="noopener noreferrer"></a></li>
-                        <li class="pb-2 font-poppins hover:text-[#e7a93c] dark:text-[#0ee2b7] duration-300"><a href="" target="_blank" rel="noopener noreferrer"></a></li>
+                        <li class="pb-2 font-poppins hover:text-[#e7a93c] dark:text-[#0ee2b7] duration-300"><a href="https://www.kluniversity.in/" class="flex vvsm:place-content-center md:place-content-start" target="_blank" rel="noopener noreferrer">KL University</a></li>
+                        <li class="pb-2 font-poppins hover:text-[#e7a93c] dark:text-[#0ee2b7] duration-300"><a href="https://sac.kluniversity.in/" class="flex vvsm:place-content-center md:place-content-start" target="_blank" rel="noopener noreferrer">KL SAC</a></li>
                     </ul>
                 </div>
             </div>
