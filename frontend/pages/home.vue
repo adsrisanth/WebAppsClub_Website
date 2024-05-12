@@ -10,15 +10,17 @@
         </div>
         <!---NavBar--> 
         <NavBar /> 
-        <div class="flex justify-center items-center w-full min-h-screen bg-slate-200 dark:bg-gray-900 dark:text-white text-black" v-if="!isLoading">
-            <div class="flex flex-col gap gap-5 text-center"> 
-                <span class="vvsm:text-[31px] md:text-[62px] font-mono font-bold">WebAppsClub</span>
-                <span class=" vvsm:text-[12px] md:text-[24px] font-montserrat">- Decentralized -</span>
+        <div v-if="!isLoading">
+            <div class="flex justify-center items-center w-full min-h-screen bg-slate-200 dark:bg-gray-900 dark:text-white text-black">
+                <div class="flex flex-col gap gap-5 text-center"> 
+                    <span class="vvsm:text-[31px] md:text-[62px] font-mono font-bold">WebAppsClub</span>
+                    <span class=" vvsm:text md:text-[24px] font-montserrat">- Decentralized -</span>
+                </div>
             </div>
+            <div> 
+                <Footer /> 
+            </div> 
         </div>
-        <div> 
-            <Footer /> 
-        </div> 
     </div>
 </template>
 
