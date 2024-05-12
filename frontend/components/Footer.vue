@@ -10,7 +10,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="p-10 flex justify-between">
+                        <div class="p-6 flex justify-between">
                             <a href="https://www.instagram.com"><img src="../assets/images/instagram.svg" width="25px" alt="WebApps_Insta"></a>
                             <a href="https://www.linkedin.com"><img src="../assets/images/linkedin.png" width="25px" alt="WebApps_Linkedin"></a>
                             <a href="https://www.x.com"><img src="../assets/images/twitter.svg" width="25px" alt="WebApps_Twitter"></a>
@@ -53,7 +53,7 @@
                 </div>
             </div>
         </div>
-        <div class="text-gray-300 flex p-5 flex-col text-lg">
+        <div class="text-gray-300 flex p-5 flex-col vvsm:text-sm md:text-lg">
             <div class="flex justify-center gap gap-1">Desined and Developed By 
                 <span class="hover:text-[#e7a93c] font-bold duration-300"><a href="">Dinesh SriSanth Adari</a></span>
                 </div>
