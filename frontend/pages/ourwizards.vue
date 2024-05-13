@@ -10,19 +10,16 @@
         </div>
         <!---NavBar-->
         <NavBar />
-        <div class="flex justify-center items-center w-full min-h-screen bg-slate-200 dark:bg-gray-900 dark:text-white text-black"v-if="!isLoading">
-            <div class="flex flex-col gap gap-5 text-center">
-                <span class="text-[50px] font-mono font-bold">Meet our Wizards</span>
-            </div>
+        <div class="w-full min-h-[100vh]">
+
         </div>
         <Footer />
     </div>
 </template>
 
 <script setup>
-import Home from './home.vue';
 import { ref, onMounted } from 'vue';
-import { useThemeStore } from '@/store/ThemeStore';
+import { useThemeStore } from '../stores/ThemeStore';
 
 const isLoading = ref(true);
 const themeStore = useThemeStore();
@@ -32,7 +29,7 @@ onMounted(() => {
 });
 
 useHead({
-  title:"WebApps | KLSAC"
+  title:"WebApps - Wizards"
 })
 
 </script>

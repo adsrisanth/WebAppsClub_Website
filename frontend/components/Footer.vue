@@ -1,13 +1,11 @@
 <template>
     <div class="bg-[#113194] text-black dark:text-white ">
         <div class="bg-[#2533b7] text-white">
-            <div class="flex flex-col md:flex-row justify-between pr-8 pl-8 md:pr-56 md:pl-56">
+            <div class="flex flex-col md:flex-row md:justify-evenly">
                 <div class="w-fit">
-                    <div class="bg-slate-200 dark:bg-gray-900 rounded-b-xl justify-center">
-                        <div class="p-10 vvsm:flex vvsm:justify-center md:w-[200px]">
-                            <img v-if="themeStore.isDark" src="../assets/images/WebsiteLogol.png" alt="ClubLogo">
-                            <img v-else src="../assets/images/WebsiteLogo.png"alt="ClubLogo">
-                        </div>
+                    <div class="bg-slate-200 dark:bg-gray-900 rounded-b-xl vvsm:w-[200px] md:w-[200px] flex justify-center">
+                        <img v-if="themeStore.isDark" src="../assets/images/WebsiteLogol.png" alt="ClubLogo">
+                        <img v-else src="../assets/images/WebsiteLogo.png" alt="ClubLogo">
                     </div>
                     <div>
                         <div class="p-6 flex justify-between">
@@ -34,7 +32,7 @@
                 <div class="flex flex-col vvsm:text-sm md:text-lg font-poppins pt-8 vvsm:place-items-center md:place-items-start">
                     <ul>
 			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/"  exact-active-class="font-bold text-[#e7a93c]" class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Home</NuxtLink></li>
-			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/AboutUs" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 text-white">About Us</NuxtLink></li>
+			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/AboutUs" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">About Us</NuxtLink></li>
 			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/OurWizards" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Our Wizards</NuxtLink></li>
 			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/Gallery" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Gallery</NuxtLink></li>
 			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/Courses" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Courses</NuxtLink></li>
@@ -42,8 +40,8 @@
                 </div>
                 <div class="flex flex-col vvsm:text-sm md:text-lg pt-8">
                     <ul>
-                        <li class="vvsm:pb-1 md:pb-2 font-poppins hover:text-[#e7a93c] dark:text-[#0ee2b7] duration-300"><a href="https://www.kluniversity.in/" class="flex vvsm:place-content-center md:place-content-start" target="_blank" rel="noopener noreferrer">KL University</a></li>
-                        <li class="pb-5 font-poppins hover:text-[#e7a93c] dark:text-[#0ee2b7] duration-300"><a href="https://sac.kluniversity.in/" class="flex vvsm:place-content-center md:place-content-start" target="_blank" rel="noopener noreferrer">KL SAC</a></li>
+                        <li class="font-bold vvsm:pb-1 md:pb-2 font-poppins hover:text-[#e7a93c] hover:dark:text-[#0ee2b7] duration-300"><a href="https://www.kluniversity.in/" class="flex vvsm:place-content-center md:place-content-start" target="_blank" rel="noopener noreferrer">KL University</a></li>
+                        <li class="font-bold pb-5 font-poppins hover:text-[#e7a93c] hover:dark:text-[#0ee2b7] duration-300"><a href="https://sac.kluniversity.in/" class="flex vvsm:place-content-center md:place-content-start" target="_blank" rel="noopener noreferrer">KL SAC</a></li>
                     </ul>
                 </div>
             </div>
@@ -72,7 +70,7 @@ const redirectToEmail = () => {
 
 const currentYear = ref(new Date().getFullYear());
 
-import { useThemeStore } from '@/store/ThemeStore';
+import { useThemeStore } from '~/stores/ThemeStore';
 
 const themeStore = useThemeStore();
 

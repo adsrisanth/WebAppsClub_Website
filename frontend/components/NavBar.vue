@@ -19,7 +19,6 @@
 	  	</ul>
 	  	<div class="hidden lg:flex lg:items-center">
 			<NuxtLink to="/signin" class="py-2 px-6 bg-[#2831bc] hover:bg-[#fe373b] text-md text-white font-bold rounded-xl transition duration-300">Sign In</NuxtLink>
-			<a href="https://sac.kluniversity.in" target="_blank" rel="noopener noreferrer" class="py-2 px-6 bg-red-600 hover:bg-red-900 text-md text-white font-bold rounded-xl transition duration-300 ml-3">KLSAC</a>
 	  	</div>
 	</nav>
 	<div class="navbar-menu" :class="{ 'hidden': menuHidden }">
@@ -41,14 +40,13 @@
 			</ul>
 			<div class="mt-auto">
 			  	<NuxtLink to="/signin" class="block px-4 py-3 mb-3 leading-loose text-xs text-center text-white font-semibold  bg-[#2831bc] hover:bg-[#fe373b] rounded-xl">Sign in</NuxtLink>
-				<a href="https://sac.kluniversity.in" target="_blank" rel="noopener noreferrer"class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-red-600 hover:bg-red-900 rounded-xl">KLSAC</a>
 			</div>
 	  	</nav>
 	</div>
 </template>
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
-import { useThemeStore } from '@/store/ThemeStore';
+import { useThemeStore } from '~/stores/ThemeStore';
 
 const menuHidden = ref(true);
 const themeStore = useThemeStore();

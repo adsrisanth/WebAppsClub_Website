@@ -41,7 +41,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useThemeStore } from '@/store/ThemeStore';
+import { useThemeStore } from '~/stores/ThemeStore';
 
 const isLoading = ref(true);
 const themeStore = useThemeStore();

@@ -30,11 +30,10 @@
     <div class="fixed bottom-10 right-10 z-50">
         <DarktoLight />
     </div>
-    
 </template>
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useThemeStore } from '@/store/ThemeStore';
+import { useThemeStore } from '~/stores/ThemeStore';
 
 const isLoading = ref(true);
 const themeStore = useThemeStore();
