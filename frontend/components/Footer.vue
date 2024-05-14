@@ -1,12 +1,15 @@
 <template>
     <div class="bg-[#113194] text-black dark:text-white ">
         <div class="bg-[#2533b7] text-white">
-            <div class="flex flex-col md:flex-row md:justify-evenly">
-                <div class="w-fit">
-                    <div class="bg-slate-200 dark:bg-gray-900 rounded-b-xl vvsm:w-[200px] md:w-[200px] flex justify-center">
-                        <img v-if="themeStore.isDark" src="../assets/images/WebsiteLogol.png" alt="ClubLogo">
+            <div class="flex flex-col vvsm:w-full md:flex-row md:justify-evenly">
+                <div class="flex flex-col vvsm:w-full md:w-[200px]">
+                    <div class="flex justify-center">
+                        <div class="bg-slate-200 dark:bg-gray-900 rounded-b-xl w-[200px]">
+                        <img v-if="themeStore.isDark" src="../assets/images/WebsiteLogol.png" class="p-6" alt="ClubLogo">
                         <img v-else src="../assets/images/WebsiteLogo.png" alt="ClubLogo">
                     </div>
+                    </div>
+
                     <div>
                         <div class="p-6 flex justify-between">
                             <a href="https://www.instagram.com/klsac_webapps?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer"><img src="../assets/images/instagram.svg" width="25px" alt="WebApps_Insta"></a>
