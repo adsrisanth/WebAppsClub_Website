@@ -4,7 +4,7 @@ const connection = mysql.createPool({
   host: process.env.MySQL_HOSTNAME,
   database: process.env.MySQL_DB,
   user: process.env.MySQL_USERNAME,
-    password: process.env.MySQL_PASSWORD,
+  password: process.env.MySQL_PASSWORD,
   waitForConnections: true,
 });
 

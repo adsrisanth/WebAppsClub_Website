@@ -48,7 +48,7 @@
             </div>
         </div>
         <div class="text-gray-300 flex p-5 flex-col vvsm:text-sm md:text-lg">
-            <div class="flex justify-center gap gap-1">Desined and Developed By 
+            <div class="flex justify-center gap gap-1">Designed and Developed By 
                 <span class="hover:text-[#e7a93c] font-bold duration-300"><a href="https://www.linkedin.com/in/dinesh-srisanth-adari-860129249/" target="_blank" rel="noopener noreferrer">Dinesh SriSanth Adari</a></span>
                 </div>
             <div class="flex justify-center">&copy; {{ currentYear }} WebApps Club. All rights reserved.</div>
