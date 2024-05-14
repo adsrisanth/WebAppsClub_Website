@@ -4,13 +4,12 @@
             <div class="flex flex-col vvsm:w-full md:flex-row md:justify-evenly">
                 <div class="flex flex-col vvsm:w-full md:w-[200px]">
                     <div class="flex justify-center">
-                        <div class="bg-slate-200 dark:bg-gray-900 rounded-b-xl w-[200px]">
+                        <div class="bg-slate-200 dark:bg-gray-900 rounded-b-xl vvsm:w-[200px] sm:w-[300px] md:w-[200px]">
                         <img v-if="themeStore.isDark" src="../assets/images/WebsiteLogol.png" class="p-6" alt="ClubLogo">
                         <img v-else src="../assets/images/WebsiteLogo.png" alt="ClubLogo">
                     </div>
                     </div>
 
-                    <div>
                         <div class="p-6 flex justify-between">
                             <a href="https://www.instagram.com/klsac_webapps?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer"><img src="../assets/images/instagram.svg" width="25px" alt="WebApps_Insta"></a>
                             <a href="https://www.linkedin.com/company/webapps-technology-club/mycompany/"target="_blank" rel="noopener noreferrer"><img src="../assets/images/linkedin.png" width="25px" alt="WebApps_Linkedin"></a>
@@ -18,9 +17,8 @@
                             <a href="https://www.github.com" target="_blank" rel="noopener noreferrer"><img src="../assets/images/github.svg" width="25px" alt="WebApps_Twitter"></a>
                             <a href="https://t.me/klsacwebapps" target="_blank" rel="noopener noreferrer"><img src="../assets/images/telegram.svg" width="25px" alt="WebApps_Telegram"></a>
                         </div>
-                    </div>
                 </div>
-                <div class="flex flex-col vvsm:text-sm md:text-lg pt-8 vvsm:place-items-center md:place-items-start">
+                <div class="flex flex-col vvsm:text-sm sm:text-lg pt-8 vvsm:place-items-center md:place-items-start">
                     <div class="flex flex-col font-poppins vvsm:place-items-center md:place-items-start">
                         <span>K L University Greenfields</span>
                         <span>Vaddeswaram-522 502.</span>
@@ -32,16 +30,16 @@
                     <div class="pt-5 cursor-pointer hover:text-[#e7a93c] dark:hover:text-[#0ee2b7] duration-300">Campus Map</div>
                     <div class="pt-5 cursor-pointer hover:text-[#e7a93c] dark:hover:text-[#0ee2b7] duration-300">Contact US</div>
                 </div>
-                <div class="flex flex-col vvsm:text-sm md:text-lg font-poppins pt-8 vvsm:place-items-center md:place-items-start">
+                <div class="flex flex-col vvsm:text-sm sm:text-lg font-poppins pt-8 vvsm:place-items-center md:place-items-start">
                     <ul>
-			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/"  exact-active-class="font-bold text-[#e7a93c]" class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Home</NuxtLink></li>
-			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/AboutUs" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">About Us</NuxtLink></li>
-			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/OurWizards" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Our Wizards</NuxtLink></li>
-			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/Gallery" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Gallery</NuxtLink></li>
-			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/Courses" exact-active-class="font-bold text-[#e7a93c]"  class="md:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Courses</NuxtLink></li>
+			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/"  exact-active-class="font-bold text-[#e7a93c]" class="sm:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Home</NuxtLink></li>
+			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/AboutUs" exact-active-class="font-bold text-[#e7a93c]"  class="sm:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">About Us</NuxtLink></li>
+			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/OurWizards" exact-active-class="font-bold text-[#e7a93c]"  class="sm:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Our Wizards</NuxtLink></li>
+			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/Gallery" exact-active-class="font-bold text-[#e7a93c]"  class="sm:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Gallery</NuxtLink></li>
+			            <li class="vvsm:pb-1 md:pb-2"><NuxtLink to="/Courses" exact-active-class="font-bold text-[#e7a93c]"  class="sm:text-xl vvsm:text-sm flex vvsm:place-content-center md:place-content-start dark:hover:text-[#0ee2b7] dark:duration-300 hover:text-[#e7a93c] duration-300 dark:text-white">Courses</NuxtLink></li>
 	  	            </ul>
                 </div>
-                <div class="flex flex-col vvsm:text-sm md:text-lg pt-8">
+                <div class="flex flex-col vvsm:text-sm sm:text-lg pt-8">
                     <ul>
                         <li class="font-bold vvsm:pb-1 md:pb-2 font-poppins hover:text-[#e7a93c] hover:dark:text-[#0ee2b7] duration-300"><a href="https://www.kluniversity.in/" class="flex vvsm:place-content-center md:place-content-start" target="_blank" rel="noopener noreferrer">KL University</a></li>
                         <li class="font-bold pb-5 font-poppins hover:text-[#e7a93c] hover:dark:text-[#0ee2b7] duration-300"><a href="https://sac.kluniversity.in/" class="flex vvsm:place-content-center md:place-content-start" target="_blank" rel="noopener noreferrer">KL SAC</a></li>
